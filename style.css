@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    /* background: url(https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80); */
+    /* background: url(https://media.istockphoto.com/id/1208739424/photo/just-in-time.webp?b=1&s=170667a&w=0&k=20&c=1fEKSRFkdwtSjKvgbW0iYRRLTqj30FH1awOMoqsN8ME=); */
+    background: url(https://media.istockphoto.com/id/1347213425/photo/hourglass-on-laptop-computer.webp?b=1&s=170667a&w=0&k=20&c=cz8bB5r_ZtDMbdOGfMSwS9BiA5_9sutuCZ787ggOW5Y=);
+    background-size: cover;
+    overflow: hidden;
+}
+h2 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 5px;
+    position: relative;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background: rgb(90, 186, 205);
+    opacity: 0.8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock span:hover {
+    width: 100px;
+    height: 80px;
+    background: rgb(90, 186, 205);
+    opacity: 0.8;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(2, 45, 53);
+    opacity: 0.8;
+    color:white;
+}
